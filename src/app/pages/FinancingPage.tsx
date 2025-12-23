@@ -3,7 +3,7 @@ import { Check, CreditCard, DollarSign, Shield, Calendar, Percent, FileText, Pho
 import { Link } from 'react-router-dom';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { FAQ } from '../components/FAQ';
-import careCreditImg from 'C:\Users\dell\OneDrive\Desktop\total dentistry care\src\assets\8d445acdeb9275147e42d0d8616275c85e8743bc.png';
+import careCreditImg from '../../assets/8d445acdeb9275147e42d0d8616275c85e8743bc.png';
 
 export function FinancingPage() {
   const benefits = [

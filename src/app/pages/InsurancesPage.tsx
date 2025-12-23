@@ -3,9 +3,10 @@ import { Check, Phone, Shield, FileCheck, Users, DollarSign } from 'lucide-react
 import { Link } from 'react-router-dom';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { FAQ } from '../components/FAQ';
-import medicareImg from 'C:\Users\dell\OneDrive\Desktop\total dentistry care\src\assets\755765c175d193ae1c0b231a7116ec6657a8862b.png';
-import deltaDentalImg from 'C:\Users\dell\OneDrive\Desktop\total dentistry care\src\assets\4a4f7f00056fe1e65dfa2ffcd3b7a57300a4d3fe.png';
-import connectionDentalImg from 'C:\Users\dell\OneDrive\Desktop\total dentistry care\src\assets\9072ee9052c37754a14529e338ef886bd5b9e465.png';
+import medicareImg from '../../assets/755765c175d193ae1c0b231a7116ec6657a8862b.png';
+import deltaDentalImg from '../../assets/4a4f7f00056fe1e65dfa2ffcd3b7a57300a4d3fe.png';
+import connectionDentalImg from '../../assets/9072ee9052c37754a14529e338ef886bd5b9e465.png';
+
 
 export function InsurancesPage() {
   const insurances = [

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { Phone, Menu, X, ChevronDown } from 'lucide-react';
-import logo from 'C:\Users\dell\OneDrive\Desktop\total dentistry care\src\assets\c5e7970386e360f4420426beaa12c046b0bee501.png';
+import logo from '../../assets/c5e7970386e360f4420426beaa12c046b0bee501.png';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
